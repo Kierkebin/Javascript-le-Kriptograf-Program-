@@ -1,2 +1,2 @@
 # Javascript-le-Kriptograf-Program-
-Metni binary olarak kodlayan ve sıralamaya göre farklı işlemler uygulayan program.
+Aldığı metni parçalar ve binary olarak kodlar ve sıralamaya göre çarpma işlemi uygular.
