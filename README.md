@@ -1,4 +1,4 @@
-# Javascript-le-Kriptograf-Program-
+# Javascript-le-Kriptograf-Programı-
 Aldığı metni parçalar ve binary olarak kodlar ve sıralamaya göre çarpma işlemi uygular.
 
 --------------------------------
