@@ -1,0 +1,367 @@
+
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Başlıksız Belge</title>
+</head>
+
+<body>
+<form>
+<textarea name="ileti" id="ileti" rows="4" cols="50" style="resize:none; height:400px; width:400px; top:55px; left:55px; position:relative;"></textarea>
+<textarea id="dönüs" name="dönüs" rows="4" cols="50" style="resize:none; height:400px; width:400px; top:55px; left:110px; position:relative;"></textarea>
+<input type="submit" value="değiştir" onClick="fonks()" style=" left:-360px; position:relative; width:61px;"><br></input>
+</form>
+
+<script type="text/javascript">
+function fonks()
+{event.preventDefault()
+yeni=document.getElementById('ileti').value;
+var veri = yeni;
+var codla = veri.split("");
+var codla2=[];
+for(var c=0; c<codla.length; c++){
+
+if(codla[c]=="a")
+{ codla2[c]='01100001';
+  if(c>0){ 
+   var b=parseInt(codla2[c])*c; 
+   codla2[c]='0'+b;
+}
+	}else if(codla[c]=="b")
+{   codla2[c]='01100010';
+  if(c>0){ 
+   var b=parseInt(codla2[c])*c; 
+   codla2[c]='0'+b;
+}
+	}else if(codla[c]=="c")
+{   codla2[c]='01100011';
+  if(c>0){ 
+   var b=parseInt(codla2[c])*c; 
+   codla2[c]='0'+b;
+}
+	}else if(codla[c]=="d")	
+{   codla2[c]='01100100';
+  if(c>0){ 
+   var b=parseInt(codla2[c])*c; 
+   codla2[c]='0'+b;
+}
+	}else if(codla[c]=="e")
+{   codla2[c]='01100101';
+  if(c>0){ 
+   var b=parseInt(codla2[c])*c; 
+   codla2[c]='0'+b;
+} 
+	}else if(codla[c]=="f")
+{   codla2[c]='	01100110';
+  if(c>0){ 
+   var b=parseInt(codla2[c])*c; 
+   codla2[c]='0'+b;
+}
+	}else if(codla[c]=="g")
+{   codla2[c]='01100111';
+  if(c>0){ 
+   var b=parseInt(codla2[c])*c; 
+   codla2[c]='0'+b;
+}
+	}else if(codla[c]=="h")
+{   codla2[c]='01101000';
+  if(c>0){ 
+   var b=parseInt(codla2[c])*c; 
+   codla2[c]='0'+b;
+}
+	}else if(codla[c]=="i")
+{   codla2[c]='01101001';
+  if(c>0){ 
+   var b=parseInt(codla2[c])*c; 
+   codla2[c]='0'+b;
+}
+	}else if(codla[c]=="j")
+{   codla2[c]='01101010';
+  if(c>0){ 
+   var b=parseInt(codla2[c])*c; 
+   codla2[c]='0'+b;
+}
+	}else if(codla[c]=="k")
+{   codla2[c]='01101011';
+  if(c>0){ 
+   var b=parseInt(codla2[c])*c; 
+   codla2[c]='0'+b;
+}
+}   else if(codla[c]=="l")
+{   codla2[c]='01101100';
+  if(c>0){ 
+   var b=parseInt(codla2[c])*c; 
+   codla2[c]='0'+b;
+}
+	}else if(codla[c]=="m")
+{   codla2[c]='01101101';
+  if(c>0){ 
+   var b=parseInt(codla2[c])*c; 
+   codla2[c]='0'+b;
+}
+}   else if(codla[c]=="n")
+{   codla2[c]='01101110';
+  if(c>0){ 
+   var b=parseInt(codla2[c])*c; 
+   codla2[c]='0'+b;
+}
+	}else if(codla[c]=="o")
+{   codla2[c]='01101111';
+  if(c>0){ 
+   var b=parseInt(codla2[c])*c; 
+   codla2[c]='0'+b;
+}
+	}else if(codla[c]=="p")
+{   codla2[c]='01110000';
+  if(c>0){ 
+   var b=parseInt(codla2[c])*c; 
+   codla2[c]='0'+b;
+}
+	}else if(codla[c]=="q")
+{   codla2[c]='01110001';
+  if(c>0){ 
+   var b=parseInt(codla2[c])*c; 
+   codla2[c]='0'+b;
+}
+	}else if(codla[c]=="r")
+	{codla2[c]='01110010';
+  if(c>0){ 
+   var b=parseInt(codla2[c])*c; 
+   codla2[c]='0'+b;
+}
+	}else if(codla[c]=="s")
+{   codla2[c]='01110011';
+  if(c>0){ 
+   var b=parseInt(codla2[c])*c; 
+   codla2[c]='0'+b;
+}
+	}else if(codla[c]=="t")
+{   codla2[c]='01110100';
+  if(c>0){ 
+   var b=parseInt(codla2[c])*c; 
+   codla2[c]='0'+b;
+}
+	}else if(codla[c]=="u")
+{   codla2[c]='01110101';
+  if(c>0){ 
+   var b=parseInt(codla2[c])*c; 
+   codla2[c]='0'+b;
+}
+	}else if(codla[c]=="v")
+{   codla2[c]='01110110';
+  if(c>0){ 
+   var b=parseInt(codla2[c])*c; 
+   codla2[c]='0'+b;
+}
+	}else if(codla[c]=="w")
+{   codla2[c]='01110111';
+  if(c>0){ 
+   var b=parseInt(codla2[c])*c; 
+   codla2[c]='0'+b;
+}
+	}else if(codla[c]=="x")
+	{codla2[c]='01111000';
+  if(c>0){ 
+   var b=parseInt(codla2[c])*c; 
+   codla2[c]='0'+b;
+}
+	}else if(codla[c]=="y")
+{   codla2[c]='01111001';
+  if(c>0){ 
+   var b=parseInt(codla2[c])*c; 
+   codla2[c]='0'+b;
+}
+	}else if(codla[c]=="z")
+{   codla2[c]='01111010';
+  if(c>0){ 
+   var b=parseInt(codla2[c])*c; 
+   codla2[c]='0'+b;
+}}
+else if(codla[c]=="ğ")
+{   codla2[c]='100011111';
+  if(c>0){ 
+   var b=parseInt(codla2[c])*c; 
+   codla2[c]=b;
+}}
+else if(codla[c]=="ü")
+{   codla2[c]='11111100';
+  if(c>0){ 
+   var b=parseInt(codla2[c])*c; 
+   codla2[c]=b;
+}
+	}
+	else if(codla[c]=="ö")
+{   codla2[c]='11110110';
+  if(c>0){ 
+   var b=parseInt(codla2[c])*c; 
+   codla2[c]=b;
+}
+	}
+	else if(codla[c]=="ı")
+{   codla2[c]='100110001';
+  if(c>0){ 
+   var b=parseInt(codla2[c])*c; 
+   codla2[c]=b;
+}
+	}
+		else if(codla[c]=="ç")
+{   codla2[c]='11100111';
+  if(c>0){ 
+   var b=parseInt(codla2[c])*c; 
+   codla2[c]=b;
+}
+	}
+			else if(codla[c]=="ş")
+{   codla2[c]='101011111';
+  if(c>0){ 
+   var b=parseInt(codla2[c])*c; 
+   codla2[c]=b;
+}
+	}
+		else if(codla[c]=="1")
+{   codla2[c]='110001';
+  if(c>0){ 
+   var b=parseInt(codla2[c])*c; 
+   codla2[c]=b;
+}
+	}
+	else if(codla[c]=="2")
+{   codla2[c]='110010';
+  if(c>0){ 
+   var b=parseInt(codla2[c])*c; 
+   codla2[c]=b;
+}
+	}
+	else if(codla[c]=="3")
+{   codla2[c]='110011';
+  if(c>0){ 
+   var b=parseInt(codla2[c])*c; 
+   codla2[c]=b;
+}
+	}
+	else if(codla[c]=="4")
+{   codla2[c]='110100';
+  if(c>0){ 
+   var b=parseInt(codla2[c])*c; 
+   codla2[c]=b;
+}
+	}
+	else if(codla[c]=="5")
+{   codla2[c]='110101';
+  if(c>0){ 
+   var b=parseInt(codla2[c])*c; 
+   codla2[c]=b;
+}
+	}
+	else if(codla[c]=="6")
+{   codla2[c]='110110';
+  if(c>0){ 
+   var b=parseInt(codla2[c])*c; 
+   codla2[c]=b;
+}
+	}
+	else if(codla[c]=="7")
+{   codla2[c]='110111';
+  if(c>0){ 
+   var b=parseInt(codla2[c])*c; 
+   codla2[c]=b;
+}
+	}
+	else if(codla[c]=="8")
+{   codla2[c]='111000';
+  if(c>0){ 
+   var b=parseInt(codla2[c])*c; 
+   codla2[c]=b;
+}
+	}
+	else if(codla[c]=="9")
+{   codla2[c]='111001';
+  if(c>0){ 
+   var b=parseInt(codla2[c])*c; 
+   codla2[c]=b;
+}
+	}
+	else if(codla[c]=="0")
+{   codla2[c]='110000';
+  if(c>0){ 
+   var b=parseInt(codla2[c])*c; 
+   codla2[c]=b;
+}
+	}
+	else if(codla[c]==".")
+{   codla2[c]='101110';
+  if(c>0){ 
+   var b=parseInt(codla2[c])*c; 
+   codla2[c]=b;
+}
+	}
+	else if(codla[c]==",")
+{   codla2[c]='101100';
+  if(c>0){ 
+   var b=parseInt(codla2[c])*c; 
+   codla2[c]=b;
+}
+	}
+	else if(codla[c]==";")
+{   codla2[c]='111011';
+  if(c>0){ 
+   var b=parseInt(codla2[c])*c; 
+   codla2[c]=b;
+}
+	}
+	else if(codla[c]==":")
+{   codla2[c]='111010';
+  if(c>0){ 
+   var b=parseInt(codla2[c])*c; 
+   codla2[c]=b;
+}
+	}
+	else if(codla[c]=="!")
+{   codla2[c]='100001';
+  if(c>0){ 
+   var b=parseInt(codla2[c])*c; 
+   codla2[c]=b;
+}
+	}
+	else if(codla[c]=="?")
+{   codla2[c]='111111';
+  if(c>0){ 
+   var b=parseInt(codla2[c])*c; 
+   codla2[c]=b;
+}
+	}
+	else if(codla[c]=="(")
+{   codla2[c]='101000';
+  if(c>0){ 
+   var b=parseInt(codla2[c])*c; 
+   codla2[c]=b;
+}
+	}
+	else if(codla[c]==")")
+{   codla2[c]='101001';
+  if(c>0){ 
+   var b=parseInt(codla2[c])*c; 
+   codla2[c]=b;
+}
+	}
+	
+else if(codla[c]==" ")
+{
+	codla2[c]='/';
+	}
+}
+
+
+	for(var i=0; i<codla.length; i++)
+	{  var yazıcı;
+		if(typeof yazıcı === 'undefined')
+		{ yazıcı="";
+			}
+		yazıcı=yazıcı+codla2[i];
+	document.getElementById("dönüs").innerHTML=yazıcı;
+	
+	}}
+</script>
+</body>
+</html>
